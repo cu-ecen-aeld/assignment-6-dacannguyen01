@@ -26,7 +26,6 @@ INITSCRIPT_NAME:${PN} = "aesdsocket-start-stop"
 # TODO: customize these as necessary for any libraries you need for your application
 # (and remove comment)
 TARGET_LDFLAGS += "-pthread -lrt"
-PTEST_ENABLED_pn-strace = "0"
 
 
 do_configure () {
